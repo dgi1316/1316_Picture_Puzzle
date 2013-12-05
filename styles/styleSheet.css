@@ -1,0 +1,92 @@
+body
+{
+}
+
+.primaryButton
+{
+	color: #ffffff;
+	font-weight: bold;
+	
+	background: -moz-linear-gradient(top, #42aaff 0%, #003366);
+	background: -webkit-gradient(linear, left top, left bottom, from(#42aaff), to(#003366));
+	background: #003366;
+	
+	border: 3px solid #cccccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-moz-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow: 0px -1px 0px rgba(000,000,000,0.7), 0px 1px 0px rgba(255,255,255,0.3);
+	padding: 3px 20px;
+}
+.card
+{
+	background-image: url('assets\images\flashcard1.png') !important;
+}
+
+.cardContainer { 
+    margin: 0 auto; 
+    display: table; 
+    border: solid 2px #b7ddf2; 
+    background: #ebf4fb; 
+    font-family: Verdana, Geneva, sans-serif; 
+} 
+ 
+.row { 
+    display: table-row; 
+} 
+.column { 
+    display: table-cell; 
+	width: 124px; 
+	height:168px;
+	background: url('../assets/images/flashcard1.png') !important;
+	background-repeat: no-repeat  !important;
+}
+.columnResult { 
+    display: table-cell; 
+    border: solid 2px #000000; 
+	width: 124px; 
+	height:28px;
+}
+.card-image
+{
+
+position:relative;
+	top:30px;
+	display: table-cell; 
+	background-repeat: no-repeat center center !important;
+   margin:auto; 
+}
+.submitButtonContainer
+{
+	padding-top:30px;
+	text-align:center;
+}
+.ui-btn-text
+{
+	display:none;
+}
+.heading
+{
+	width:100%;
+	height:80px;
+	text-align:center;
+	font-family:Arial;
+	font-size:x-large;
+	font-weight:bolder;
+	color:blue;
+}
+.instruction
+{
+	width:100%;
+	height:80px;
+	text-align:left;
+	padding:10px;
+	font-family:Arial;
+	font-size:medium;
+	font-weight:bolder;
+	color:blue;
+}
+

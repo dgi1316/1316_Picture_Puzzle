@@ -1,0 +1,29 @@
+#table-holder { 
+    margin: 0 auto; 
+    display: table; 
+    border: solid 2px #b7ddf2; 
+    background: #ebf4fb; 
+    font-family: Verdana, Geneva, sans-serif; 
+} 
+ 
+#row { 
+    display: table-row; 
+    border: solid 2px #000000; 
+    padding: 10px 10px 10px 10px; 
+} 
+ 
+#column { 
+    display: table-cell; 
+    border: solid 2px #000000; 
+    padding: 10px 10px 10px 10px; 
+	width: 124px; 
+	height:168px;
+	background: url('assets/images/flashcard1.png') !important;
+}
+#columnResult { 
+    display: table-cell; 
+    border: solid 2px #000000; 
+    padding: 10px 10px 10px 10px; 
+	width: 124px; 
+	height:28px;
+}
